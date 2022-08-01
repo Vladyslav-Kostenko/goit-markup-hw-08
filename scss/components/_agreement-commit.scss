@@ -1,0 +1,18 @@
+.agreement-commit {
+    margin-bottom: 30px;
+}
+
+.agreement-commit__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.agreement-commit__link {
+    color: $accent-color;
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+
+.portfolio header {
+    border: 1px solid $first-stroke-color;
+}
+
+.features__header,
+.footer__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features__header {
+    margin-bottom: 10px;
+}
+
+.examples__header,
+.team__header,
+.clients__header {
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.footer__header {
+    margin-bottom: 20px;
+}
+
+.service-form__header {
+    text-align: center;
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+
+    color: $primary-text-color;
+}

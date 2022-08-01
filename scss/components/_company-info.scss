@@ -1,0 +1,17 @@
+.company-info {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.company-info__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.company-info__adress {
+    font-style: normal;
+}
+
+.company-info__mail,
+.company-info__tel {
+    color: rgba(255, 255, 255, 0.6);
+}

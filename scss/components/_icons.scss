@@ -1,0 +1,81 @@
+.contact-info__icon-envelope,
+.contact-info__icon-smartphone {
+    fill: currentColor;
+    margin-right: 11px;
+}
+
+.contact-info__icon-envelope {
+    width: 16px;
+    height: 12px;
+}
+
+.contact-info__icon-smartphone {
+    width: 10px;
+    height: 16px;
+}
+
+.features__icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    background-color: $additional-page-color;
+    border-radius: 4px;
+}
+
+.features__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.social-networks__icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.clients__icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+.subscription__icon {
+    width: 24px;
+    height: 24px;
+    fill: $primary-page-color;
+}
+
+.modal__icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+
+    .service-form__field & {
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+        fill: currentColor;
+    }
+
+    .service-form__input:focus-within+& {
+        color: $accent-color;
+    }
+}
+
+.agreement-commit__icon {
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+
+    background-image: url(../images/svg/checkbox-unchecked.svg);
+
+    .agreement-commit__checkbox:checked+& {
+        background-image: url(../images/svg/checkbox-checked.svg);
+    }
+}
